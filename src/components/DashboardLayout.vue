@@ -7,7 +7,7 @@
            David Dharma Putra
          </v-list-item-title>
          <v-list-item-subtitle>
-           0005
+           180710005
          </v-list-item-subtitle>
        </v-list-item-content>
      </v-list-item>
@@ -42,6 +42,7 @@ export default {
        { title: "Dashboard", to: "/" },
        { title: "GD", to: "/gd" },
        {title: "UGD", to:"/ugd"},
+       { title: "Tugas", to:"/tugas"},
      ],
    };
  },

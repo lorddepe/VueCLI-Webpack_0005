@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-Vue.use(VueRouter)
-
 function importComponent(path) {
    return () => import(`./components/${path}.vue`)
 }
@@ -34,6 +32,12 @@ const router = new VueRouter({
                 path: "/ugd",
                 name:'Unguided',
                 component: importComponent('TodoList/ListUGD'),
+            },
+
+            {
+                path: "/tugas",
+                name: "Tugas",
+                component: importComponent('TodoList/ListTugas'),
             },
            ]
        },
